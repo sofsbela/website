@@ -69,7 +69,6 @@ button {
 
   display: flex;
   align-items: center;
-  display: none;
 }
 
 .secundary-button img {
@@ -308,6 +307,9 @@ p {
 .curriculo {
   padding: 0 100px;
   text-align: center;
+}
+.curriculo a {
+  text-decoration: none;
 }
 
 .curriculo .container {
