@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Antunes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="logo">
+            <h2>Hello,</h2>
+            <h1 class="title-green">I am Sofia Antunes</h1>
+            <p>Estou atualmente a terminar o Mestrado em Marketing na Faculdade de Economia da Universidade de Coimbra. Em 2020 comecei a minha jornada na programação através de um curso de Frontend. Adoro aprender coisas novas e expandir as minhas áreas de conhecimento.</p>
+            <button>
+                Entre em contacto!
+            </button>
+        </div>
+    </header>
+
+    <nav>
+        <img src="assets/logo.png" alt="logo">
+        <ul>
+            <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#services"><i data-feather="briefcase"></i>Interesses</a>
+            <a href="#portefolio"><i data-feather="image"></i>Portefólio</a>
+            <a href="#curriculo"><i data-feather="list"></i>Currículo</a>
+            <a href="#contact"><i data-feather="send"></i>Contacto</a>
+        </ul>
+    </nav>
+
+    <section id="aboutme" class="about-me">
+        <div class="container">
+            <h1 class="title-green">Sobre mim</h1>
+            <p>Albicastrense de 24 anos em terras de Viriato. Licenciada em Ciências da Comunicação pela Universidade de Lisboa. <br> Sou muito curiosa e ambiciosa: gosto de aprender coisas novas, estudar e desenvolver skills que poderão potenciar o meu sucesso. <br><br> Sou uma entusiasta no mundo do frontend e aplico-me para ser melhor todos os dias.</p>
+        </div>
+        <div class="img-container">
+            <div class="line green"></div>
+            <div class="line purple"></div>
+            <img src="assets/profile.jpg" alt="Profile Image">
+        </div>
+    </section>
+    <section id="services" class="services">
+        <h1 class="title-purple">Interesses</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="assets/lamp.svg" alt="Icone de Lâmpada">
+                <h2>Sudoku</h2>
+                <p>Dos mais fáceis aos mais difíceis. Tenho uma aplicação mas prefiro em papel.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/movie.svg" alt="Icone de Filme">
+                <h2>Séries Criminais</h2>
+                <p>Acho interessante testemunhos reais de quem pratica crimes extremos. Talvez a parte psicológica seja o que me atrai.</p>
+            </div>
+            <div class="service-card">
+                <img src="assets/pricetag.svg" alt="Icone de Preço">
+                <h2>Consultar Folhetos</h2>
+                <p>Constante busca por promoções que me permitam pagar 12 cent. por café.</p>
+            </div>
+    </section>
+    <section id="portefolio" class="portefolio">
+        <h1 class="title-green">Portefólio</h1>
+        <div class="portefolio-container">
+            <a href="https://sofsbela.github.io/salatina/" target="_blank" rel="noopener noreferrer"><div class="portefolio-card-salatina">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <div class="line purple"></div>
+                    <img src="assets/blacklogo.png" alt="Imagem da Salatina">
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>js</li>
+                    </ul>
+                </div>
+                <p><b>Salatina</b></p>
+                <p>Projeto feito usando html, css e js com o objetivo de treinar as várias técnicas.</p>
+            </div></a>
+                <div class="portefolio-card">
+                    <div class="img-container">
+                        <div class="line green"></div>
+                        <div class="line purple"></div>
+                        <img src="assets/portefolio-linktree.jpg" alt="Imagem de Computador">
+                    </div>
+                    <div class="language-container">
+                        <ul>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>js</li>
+                        </ul>
+                    </div>
+                    <p><b>Projeto</b></p>
+                    <p>Projeto feito usando html, css e js com o objetivo de treinar as várias técnicas.</p>
+                </div>
+    
+    </section>
+    <section id="curriculo" class="curriculo">
+        <h1 class="title-purple">Currículo</h1>
+        <div class="container">
+            <img class="curriculo-img" src="assets/curriculo.png" alt="Imagem de Currículo">
+            <div class="content">
+                <div class="curriculo-info">
+                    <span>Nome</span><b>Sofia Antunes</b>
+                    <span>Idade</span><b>24 Anos</b>
+                    <span>Formação</span><b>Ciências da Comunicação: ISCSP-UL</b>
+                    <span>Cidade</span><b>Viseu</b>
+                    <span>Telemóvel</span><b>912 688 382</b>
+                    <span>E-mail</span><b>sofia_897@hotmail.com</b>
+                    <span>Experiência</span><b>Html, Css, JavaScript</b>
+                    <span>Idiomas</span><b>Inglês Avançado</b>
+                </div>
+                <button class="secundary-button"> <img src="assets/icone-curriculo.svg" alt="Icone de documento"> Baixe o meu currículo completo!</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>Vamos trabalhar juntos?</h1>
+        <p>Se gostou do meu trabalho e gostaria que trabalhássemos juntos, entre em contacto comigo!</p>
+        <button onclick="window.open('https://api.whatsapp.com/send?phone=351912688382&text=Olá%20Sofia!')">Entre em contacto!</button>
+        <div class="social-media">
+            <a href="https://www.facebook.com/sofiasantunes" target="_blank"><img src="assets/facebook.png" alt="Ícone do Facebook"></a>
+            <a href="https://www.instagram.com/sofsbela/" target="_blank"><img src="assets/instagram.png" alt="Ícone do Instagram"></a>
+            <a href="https://api.whatsapp.com/send?phone=351912688382&text=Olá%20Sofia!" target="_blank"><img src="assets/whatsapp.png" alt="Ícone do Whatsapp"></a>
+            <a href="https://www.linkedin.com/in/sofiasantunes/" target="_blank"><img src="assets/linkedin.png" alt="Ícone do Linkedin"></a>
+        </div>
+    </section>
+    <footer>
+        <p>Made by Sofia Antunes - 2021</p>
+    </footer>
+
+    <script>
+        feather.replace()
+      </script>
+</body>
+</html>
